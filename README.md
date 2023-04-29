@@ -1,4 +1,4 @@
-# Project for SKJ (Maze Generator / Solver GUI)
+# Project for SKJ (Maze Generator/Solver GUI)
 
 ## Project topic
 The project utilizes a library created in CPP with Python bindings. [The library can be found here.](https://github.com/Firestone82/MazeLib)
