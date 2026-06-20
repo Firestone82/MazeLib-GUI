@@ -1,21 +1,51 @@
-# Project for SKJ (Maze Generator/Solver GUI)
+# MazeLib-GUI
 
-## Project topic
-The project utilizes a library created in CPP with Python bindings. [The library can be found here.](https://github.com/Firestone82/MazeLib)
-This GUI fully utilizes the library and its functions, allowing for maze generation, solving, rendering, and testing.
-GUI is written in Python 3.8 with tkinter. The library is written in C++17.
+> **VŠB-TUO** — School project · Scripting Languages (SKJ)
 
-## Link to the main repository
- - https://github.com/Firestone82/MazeLib
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Tkinter](https://img.shields.io/badge/GUI-tkinter-orange)
+
+A Python/tkinter graphical interface for the [MazeLib](https://github.com/Firestone82/MazeLib) C++ library. Allows users to generate, solve, and visualize mazes and run algorithm benchmarks — all without using the command line.
+
+<p align="center">
+  <img src="assets/showcase.png" alt="GUI Showcase" width="700">
+</p>
+
+## Features
+
+- Maze generation via all MazeLib generation algorithms
+- Maze solving via all MazeLib solving algorithms
+- Visual rendering of generated and solved mazes
+- Algorithm benchmark view
 
 ## Requirements
- - Python 3.8
- - tkinter
- - mazeLib 1.0
 
-## GUI Showcase
-![GUI](assets/showcase.png)
+- Python 3.8+
+- tkinter
+- MazeLib 1.0 (C++ library with Python bindings — see [MazeLib](https://github.com/Firestone82/MazeLib))
 
----
-### Project author: Pavel Mikula (MIK0486)
-- Took approximately 22 hours 30 minutes
+## Setup
+
+1. Build and install MazeLib with Python bindings first:
+   ```
+   See https://github.com/Firestone82/MazeLib
+   ```
+
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/Firestone82/MazeLib-GUI.git
+   cd MazeLib-GUI
+   ```
+
+3. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the GUI:
+   ```bash
+   python main.py
+   ```
+
+## License
+
+This project was created as a school assignment at VŠB-TUO.
