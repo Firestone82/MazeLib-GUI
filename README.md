@@ -4,9 +4,18 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Tkinter](https://img.shields.io/badge/GUI-tkinter-orange)
 
-## About
+A Python/tkinter graphical interface for the [MazeLib](https://github.com/Firestone82/MazeLib) C++ library. Allows users to generate, solve, and visualize mazes and run algorithm benchmarks — all without using the command line.
 
-A Python/tkinter graphical interface for the [MazeLib](https://github.com/Firestone82/MazeLib) C++ library. Communicates with the library via Python bindings to let users generate mazes, solve them, view visual renders, and run algorithm benchmarks — all without using the command line.
+<p align="center">
+  <img src="assets/showcase.png" alt="GUI Showcase" width="700">
+</p>
+
+## Features
+
+- Maze generation via all MazeLib generation algorithms
+- Maze solving via all MazeLib solving algorithms
+- Visual rendering of generated and solved mazes
+- Algorithm benchmark view
 
 ## Requirements
 
